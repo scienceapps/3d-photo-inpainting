@@ -6,7 +6,7 @@ fps: 60
 num_frames: 700
 x_shift_range: [0.02, 0.02, -0.07, -0.02]
 y_shift_range: [0.02, 0.02, 0.02, -0.03]
-z_shift_range: [-0.20, -0.20, -0.07, -0.07]
+z_shift_range: [-0.20, -0.25, -0.07, -0.07]
 traj_types: ['double-straight-line', 'circle', 'double-straight-line', 'circle']
 video_postfix: ['dolly-zoom-in', 'zoom-in', 'double-straight-line', 'swing']
 specific: ''
