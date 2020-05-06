@@ -4,11 +4,11 @@ rgb_feat_model_ckpt: checkpoints/color-model.pth
 MiDaS_model_ckpt: MiDaS/model.pt
 fps: 30
 num_frames: 450
-x_shift_range: [0.00, 0.00, -0.12, -0.02]
-y_shift_range: [0.00, 0.00, -0.02, -0.00]
-z_shift_range: [-0.10, -0.10, -0.02, -0.17]
-traj_types: ['double-straight-line', 'double-straight-line', 'circle', 'circle']
-video_postfix: ['dolly-zoom-in', 'zoom-in', 'circle', 'swing']
+x_shift_range: [0.00, 0.00, -0.10, -0.02, -0.10, -0.02]
+y_shift_range: [0.00, 0.00, -0.02, -0.00, -0.02, -0.10]
+z_shift_range: [-0.20, -0.20, -0.02, -0.12, -0.12, -0.10]
+traj_types: ['double-straight-line', 'double-straight-line', 'circle', 'circle', 'circle', 'circle']
+video_postfix: ['dolly-zoom-in', 'zoom-in', 'circle', 'swing', 'swing', 'swing']
 specific: ''
 longer_side_len: 960
 src_folder: image
