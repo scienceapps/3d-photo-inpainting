@@ -5,7 +5,7 @@ MiDaS_model_ckpt: MiDaS/model.pt
 fps: 60
 num_frames: 900
 x_shift_range: [0.02, 0.02, -0.10, -0.02]
-y_shift_range: [0.02, 0.02, 0.02, 0.10]
+y_shift_range: [0.02, 0.02, 0.02, 0.05]
 z_shift_range: [-0.20, -0.20, -0.10, -0.10]
 traj_types: ['double-straight-line', 'circle', 'double-straight-line', 'circle']
 video_postfix: ['dolly-zoom-in', 'zoom-in', 'double-straight-line', 'swing']
